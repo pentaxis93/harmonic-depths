@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <title>Harmonic Depths</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="harmonicSpace"></canvas>
+
+  <!-- Subtle intro overlay - fades on first interaction -->
+  <div id="intro" class="intro">
+    <div class="intro-text">
+      <p>Move through the space.</p>
+      <p class="subtle">Scroll to descend deeper.</p>
+    </div>
+  </div>
+
+  <!-- Minimal frequency indicator - appears on key press -->
+  <div id="frequencyHint" class="frequency-hint hidden">
+    <span id="fundamentalDisplay"></span>
+  </div>
+
+  <script src="renderer.js" type="module"></script>
+</body>
+</html>

@@ -2,6 +2,37 @@
 
 An explorer for prime harmonic territory — sounds that Western tuning systems cannot express.
 
+## Download
+
+Pre-built binaries are available for all major platforms:
+
+**[→ Download Latest Release](https://github.com/pentaxis93/harmonic-depths/releases/latest)**
+
+### Platform-Specific Instructions
+
+**Linux**
+- Download `.AppImage` (universal, works on any distribution)
+  - Make executable: `chmod +x Harmonic-Depths-*.AppImage`
+  - Run: `./Harmonic-Depths-*.AppImage`
+- Or download `.deb` for Debian/Ubuntu: `sudo dpkg -i harmonic-depths_*.deb`
+
+**macOS**
+- Download `.dmg` file
+- Open and drag to Applications folder
+- **First launch**: Right-click app → "Open" → "Open" (required for unsigned apps)
+- Subsequent launches work normally
+
+**Windows**
+- Download `Harmonic-Depths-Setup-*.exe` (installer)
+- Or download `Harmonic-Depths-*.exe` (portable, no installation)
+- **First launch**: Click "More info" → "Run anyway" on SmartScreen warning
+- Subsequent launches work normally
+
+> **Note**: v0.1.0 binaries are unsigned. Security warnings are expected and safe to bypass.
+> Code signing will be added in future releases.
+
+---
+
 ## What This Is
 
 When any note sounds, it produces frequencies at integer multiples of its fundamental. The 2nd harmonic is an octave up. The 3rd introduces the perfect fifth. The 5th gives us the major third.
@@ -10,7 +41,9 @@ But the 7th harmonic? The 11th? The 13th? These are frequencies that don't exist
 
 This application lets you encounter these sounds — not as abstract frequencies, but as living, breathing textures you can move through and shape.
 
-## Installation
+## Development Setup
+
+To run from source or contribute:
 
 ```bash
 npm install

@@ -6,9 +6,9 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",
-    "build:linux": "electron-builder --linux",
-    "build:mac": "electron-builder --mac",
-    "build:win": "electron-builder --win"
+    "build:linux": "electron-builder --linux --publish never",
+    "build:mac": "electron-builder --mac --publish never",
+    "build:win": "electron-builder --win --publish never"
   },
   "author": "pentaxis93 <pentaxis93@users.noreply.github.com>",
   "license": "MIT",
